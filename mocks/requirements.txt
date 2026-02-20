@@ -1,0 +1,5 @@
+# AgriBot-Retrofit - Mock Requirements
+# Dependências mínimas para testes de integração
+
+# Nenhuma dependência externa necessária para o mock
+# (usa apenas Python stdlib: json, math, datetime, pathlib)

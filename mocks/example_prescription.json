@@ -1,0 +1,58 @@
+{
+  "prescription_id": "VRA-20260220-001",
+  "field_id": "F001-UsinaGuarani-Piracicaba",
+  "prescription_type": "variable_rate_reform",
+  "created_at": "2026-02-20T10:00:00Z",
+  "created_by": "Precision-Agriculture-Platform",
+  "zones": [
+    {
+      "zone_id": "Z001",
+      "area_ha": 50.2,
+      "action": "reform",
+      "priority": "high",
+      "reason": "Produtividade abaixo de 50% do esperado após 4 cortes",
+      "expected_roi": 15.0,
+      "estimated_cost_brl": 8000,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-47.6234, -22.7123],
+            [-47.6198, -22.7123],
+            [-47.6198, -22.7089],
+            [-47.6234, -22.7089],
+            [-47.6234, -22.7123]
+          ]
+        ]
+      }
+    },
+    {
+      "zone_id": "Z002",
+      "area_ha": 79.8,
+      "action": "maintain",
+      "priority": "low",
+      "product": "fertilizer_npk",
+      "product_rate_kg_ha": 150,
+      "reason": "Produtividade acima da média, manter manejo atual",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-47.6198, -22.7123],
+            [-47.6162, -22.7123],
+            [-47.6162, -22.7055],
+            [-47.6198, -22.7055],
+            [-47.6198, -22.7123]
+          ]
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "total_area_ha": 130,
+    "zones_count": 2,
+    "zones_reform": 1,
+    "zones_maintain": 1,
+    "total_estimated_cost_brl": 20000
+  }
+}
