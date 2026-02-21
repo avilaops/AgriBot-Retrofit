@@ -1,0 +1,17 @@
+# AgriBot Retrofit - Telemetry System
+# Python 3.10+
+
+# Core
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Telemetry Protocols
+paho-mqtt>=1.6.0
+requests>=2.31.0
+
+# Data Handling
+python-dateutil>=2.8.0
+
+# Development
+pytest>=7.3.0
+pytest-asyncio>=0.21.0
